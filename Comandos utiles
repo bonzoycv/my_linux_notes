@@ -1,0 +1,22 @@
+ps -AH | less   			|  Show running processes in a pretty manner
+echo $PATH | tr ':' '\n'                |  read the directory in the $PATH variable easily 
+ls | wc -l				|  Use ls and wc command for counting the number of lines in a directory
+ls -A | wc -l				|  Use -A option with the ls command to list hidden files but leaving out .and .. directories
+ip address 				|  show the ip address
+cat /etc/os-release			|  find which Linux version you are running
+systemd-analyze				|  Check boot time. Use Systemd-analyze blame Show all the services listed in descending order of the time taken. 
+mv -t [DESTINATION] source1 source2     |  Use this command to move more than one directory or file ///  
+//
+-
+
+For example this command create 3 directories:
+
+mkdir -p one two three
+
+And this moves directory two and three to directory one.
+
+mv -t one two three 
+
+//
+
+
