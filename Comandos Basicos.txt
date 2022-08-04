@@ -1,0 +1,31 @@
+Comandos Basicos	
+	
+Abrir terminal	Ctrl + Alt + T
+	
+Info sobre el sistema   - 		uname (-a,-s,-n,-r,-v,-m,-p,-i,-o)
+manual e instrucciones  - 		man
+Imprimir nombre de usuario actual   -   whoami
+Encontrar ruta				pwd
+conocer nombre de host/red		hostname (-i para ip / ip a | grep inet)
+Ver contenido				ls (-a -R -al) / la /  ll 
+Ver espacio libre en el Disco		df (-m -h)
+Ver espacio de files o folders		du (-h)
+Admin. espacio de disco			ncdu (sudo ncdu -x /)
+Admin. memoria				free -m
+Copiar files				cp
+Mover files				mv
+Crear un folder				mkdir
+Eliminar folder				rmdir (-r)
+Eliminar archivos			rm 
+Elimina todo bajo root			rm –rf 
+Crear files				touch
+print el contenido de un archivo	cat
+Limpiar la pantalla			clear  / ctrl l
+Ver primeras lineas de un file		head (-n [x])
+Ver ultimas lineas de un file		tail (-n)
+Cambiar permisos			chmod
+Verificar conectividad a un servidor	ping (ping google.com)
+Descargar archivos entre otraos         wget (seguido del enlace de descarga)
+Monitorear recursos			top / htop
+historial de comandos			history
+agregar y eliminar usuarios		useradd / userdel (userad/userdel juan + passwd)
