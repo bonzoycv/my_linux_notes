@@ -29,3 +29,18 @@ Descargar archivos entre otraos         wget (seguido del enlace de descarga)
 Monitorear recursos			top / htop
 historial de comandos			history
 agregar y eliminar usuarios		useradd / userdel (userad/userdel juan + passwd)
+
+
+<- 
+Instalar/desinstalar aplicaciones	
+->
+
+sudo apt install Nombre_app	
+sudo apt removel Nombre_app	
+sudo apt purge Nombre_app	
+	
+<-	
+Ejecutar comandos consecutivos
+->
+comando1; comando2 (se ejecutaran ambos comandos)	
+comando1 &&  comando2 (si no hay errores, se ejecutaran ambos comandos)	
