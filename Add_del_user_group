@@ -1,0 +1,17 @@
+sudo adduser 						|Agrega un usuario
+sudo su - [usuario]					|Ingresa a usuario 
+passwd							|Cambia contasena de usuario
+logout							|Salir de la cuenta de usuario
+-
+sudo userdel -r [usuario]				|Elimina usuario (-r elimina todo, documentos y archivos)
+
+
+
+-
+
+sudo groupadd [nombre del group] 			|Crea un nuevo grupo
+sudo usermod -aG [nombre del grupo] [nombre del user] 	|Agrega un usuario a un grupo 
+-
+sudo gpasswd -d [nombre de user] [nombre del grupo]	|Elimina un usuario de un grupo
+-
+sudo groupdel [nombre del grupo]			|Elimina el grupo del sistema	
