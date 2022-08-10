@@ -15,3 +15,5 @@ sudo usermod -aG [nombre del grupo] [nombre del user] 	|Agrega un usuario a un g
 sudo gpasswd -d [nombre de user] [nombre del grupo]	|Elimina un usuario de un grupo
 -
 sudo groupdel [nombre del grupo]			|Elimina el grupo del sistema	
+
+cat /etc/group                        | visualiza usuarios y grupos
